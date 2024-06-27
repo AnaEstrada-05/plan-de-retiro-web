@@ -1,9 +1,10 @@
-  /*Footer styles*/
-  .footer {
+/*Footer styles*/
+.footer {
     background-color: #1A090D;
     color: white;
     width: 100vw;
-    height: 33vw;
+    height: fit-content;
+    padding-bottom: 1vw;
 }   
 
 .marcaregistrada {

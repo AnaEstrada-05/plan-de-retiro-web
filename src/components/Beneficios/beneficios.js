@@ -1,10 +1,21 @@
 import "./beneficios.css";
 import { Link } from "react-router-dom";
 
+const Beneficio = ({ imgSrc, title, description }) => (
+  <div className="liBen">
+    <img className="imgBeneficios" alt={title} src={imgSrc}></img>
+    <div className="descripcion">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  </div>
+);
+
 function Beneficios() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
   const beneficios = [
     {
       imgSrc:
@@ -44,17 +55,12 @@ function Beneficios() {
       </div>
       <div className="listaBeneficios">
         {beneficios.map((beneficio, index) => (
-          <div className="liBen" key={index}>
-            <img
-              className="imgBeneficios"
-              alt={`imgBeneficio${index + 1}`}
-              src={beneficio.imgSrc}
-            ></img>
-            <div className="descripcion">
-              <h3>{beneficio.title}</h3>
-              <p>{beneficio.description}</p>
-            </div>
-          </div>
+          <Beneficio
+            key={index}
+            imgSrc={beneficio.imgSrc}
+            title={beneficio.title}
+            description={beneficio.description}
+          />
         ))}
       </div>
     </div>

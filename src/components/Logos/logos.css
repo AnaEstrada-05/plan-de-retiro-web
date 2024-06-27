@@ -1,0 +1,21 @@
+.logos {
+    background-color: #f5f1e3;
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logos img {
+    padding: 5px 60px;
+    mix-blend-mode: luminosity;
+  }
+  
+  .logos img:hover {
+    mix-blend-mode: darken;
+  }
+  
+  .logos img.darken {
+    mix-blend-mode: darken;
+  }
+  

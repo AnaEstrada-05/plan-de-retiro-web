@@ -7,8 +7,9 @@ function Cotiza() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  
   return (
-    <div>
+    <div className="cotiza-container">
       <div className="cotiza">
         <h1>Cotiza tu plan</h1>
         <p>
@@ -20,8 +21,10 @@ function Cotiza() {
           Agenda una asesoría
         </Link>
       </div>
-    <img className="img1" src={hero1} alt="cotiza" />
-    <img className="img2" src={hero2} alt="cotiza" />
+      <div className="imagenes">
+        <img className="img1" src={hero1} alt="Descripción de la imagen 1" />
+        <img className="img2" src={hero2} alt="Descripción de la imagen 2" />
+      </div>
     </div>
   );
 }

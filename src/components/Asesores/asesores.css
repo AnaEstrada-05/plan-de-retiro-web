@@ -26,8 +26,8 @@
     border-color: #000000;
     border-radius: 2vw;
     object-fit: cover;
-    height: 34vw;
-    width: 27vw;
+    height: 27vw;
+    width: 25vw;
 }
 
 .infoAsesor{
@@ -50,7 +50,7 @@
     padding: 8px;
     background-color: #FFE01B;
     color: black;
-    width: 265px;
+    width: 20vw;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
@@ -62,4 +62,11 @@
   }
   .empezar:active {
     transform: translateY(6px); 
+}
+
+.textoAsesor{
+    font-size: 1.5vw;
+    width: 25vw;
+    text-align: left;
+    font-weight: 500;
 }

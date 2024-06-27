@@ -9,56 +9,36 @@ function AsSeenOnYoutube() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
   return (
     <div className="asSeenOnYoutube" style={{ backgroundColor: "white" }}>
       <div className="imagDavid">
-        <img
-          id="davidImagen"
-          src={david}
-          alt="davidImagen"
-        ></img>
+        <img id="davidImagen" src={david} alt="Carlos Estrada" />
       </div>
       <div className="infoDavid">
         <p className="lightText">Como lo viste en Youtube</p>
         <h2>
           Carlos Estrada <br />
-          <span style={{ color: "#426FFE" }}>Libertad Financiera</span>{" "}
+          <span style={{ color: "#426FFE" }}>Libertad Financiera</span>
         </h2>
         <p>
           Aprendamos juntos sobre finanzas personales e inversiones. Al aplicar
           lo que verás en mis videos estarás cada vez más cerca de la{" "}
-          <span style={{ color: "#426FFE" }}>libertad financiera.</span>{" "}
+          <span style={{ color: "#426FFE" }}>libertad financiera.</span>
         </p>
-        <Link
-          to="/agendar"
-          onClick={scrollToTop}
-          className="agendar"
-          id="asSeenAgendar"
-        >
+        <Link to="/agendar" onClick={scrollToTop} className="agendar" id="asSeenAgendar">
           Agenda una asesoría personalizada
         </Link>
         <p>Encuéntralo en sus redes sociales</p>
         <div className="socialMedia">
-          <a href="https://www.youtube.com/@carlosefin" target="_blank">
-            <img
-              className="logoSocialMedia"
-              src={logoYoutube}
-              alt="youtube"
-            ></img>
+          <a href="https://www.youtube.com/@carlosefin" target="_blank" rel="noopener noreferrer">
+            <img className="logoSocialMedia" src={logoYoutube} alt="YouTube de Carlos Estrada" />
           </a>
-          <a href="https://www.tiktok.com/@carlosefin" target="_blank">
-            <img
-              className="logoSocialMedia"
-              src={logoTiktok}
-              alt="tiktok"
-            ></img>
+          <a href="https://www.tiktok.com/@carlosefin" target="_blank" rel="noopener noreferrer">
+            <img className="logoSocialMedia" src={logoTiktok} alt="TikTok de Carlos Estrada" />
           </a>
-          <a href="https://www.instagram.com/carlosefin/" target="_blank">
-            <img
-              className="logoSocialMedia"
-              src={logoInstagram}
-              alt="instagram"
-            ></img>
+          <a href="https://www.instagram.com/carlosefin/" target="_blank" rel="noopener noreferrer">
+            <img className="logoSocialMedia" src={logoInstagram} alt="Instagram de Carlos Estrada" />
           </a>
         </div>
       </div>

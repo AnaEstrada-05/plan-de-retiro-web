@@ -1,4 +1,6 @@
-import "./asesores.css";
+import React from 'react';
+import './asesores.css';
+import AsesorCard from './asesoresCard';
 
 function Asesores() {
   const asesores = [
@@ -13,7 +15,7 @@ function Asesores() {
       descripcion: "Descripción aquí",
       imagen:
         "https://cdn.icon-icons.com/icons2/884/PNG/512/person_4_icon-icons.com_68900.png",
-    }
+    },
   ];
 
   return (
@@ -38,20 +40,7 @@ function Asesores() {
       </p>
       <div className="asesores">
         {asesores.map((asesor, index) => (
-          <div className="infoAsesor" key={index}>
-            <div>
-              <img
-                className="fotoAsesor"
-                src={asesor.imagen}
-                alt={`asesor${index + 1}`}
-              />
-            </div>
-            <div>
-              <h3>{asesor.nombre}</h3>
-              <p>{asesor.descripcion}</p>
-            </div>
-            <button className="empezar">Empezar</button>
-          </div>
+          <AsesorCard key={index} asesor={asesor} />
         ))}
       </div>
     </div>
