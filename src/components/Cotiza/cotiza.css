@@ -1,0 +1,43 @@
+.cotiza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+    height: 27vw;
+    row-gap: 2vw;
+    padding-bottom: 9vw;
+}
+
+.cotiza h1{
+    font-size: 6vw;
+    font-weight: 500;
+    margin-bottom: 0px;
+}   
+
+.cotiza p {
+    font-size: 20px;
+    font-weight: 400;
+    width: 50vw;
+}
+
+.img1, .img2{
+    margin-top: -33vw;
+    height: 31vw;
+    position: absolute;
+}
+
+.img2{
+    right: 7vw;
+}
+
+.img1{
+    left: 1vw;
+}
+
+.cotiza .empezar{
+    text-decoration: none;
+    color: black;
+}

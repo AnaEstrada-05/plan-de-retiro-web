@@ -1,0 +1,106 @@
+  /*Footer styles*/
+  .footer {
+    background-color: #1A090D;
+    color: white;
+    width: 100vw;
+    height: 33vw;
+}   
+
+.marcaregistrada {
+    font-size: 11px;
+    color: white;
+    width: 89vw;
+    margin: 2.7vw 5vw;
+    text-align: justify;
+}
+
+.divider {
+    background-color: white;
+    width: 100vw;
+    height: 2px;
+}
+
+.footerInfo h3 {
+    font-size: 1.7vw;
+    width: 40vw;
+    padding-bottom: 1vw;
+}
+
+.footerInfo h2 {
+    font-size: 20px;
+}
+
+.footerInfo p {
+    font-size: 13px;
+    width: 138px;
+}
+
+#footerButton{
+    border: none;
+    border-radius: 2vw;
+    background-color: #679BFF;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    transition: .3s all;
+    padding: 0.8vw;
+    width: 14vw;
+    font-size: 20px;
+}
+#footerButton:hover {
+    cursor: pointer;
+    background-color: #193569;
+    color: white;
+}
+#footerButton:active {
+    transform: translateY(6px);
+}
+
+.footerInfo a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+}
+
+.footerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 20vw;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+}
+
+.footerText {
+    display: flex;
+    width: 50%;
+}
+
+.footerText div {
+    width: 174px;
+    padding-left: 67px;
+    height: 174px;
+    scale: 1.2;
+}
+
+#metasDesc {
+    margin-top: 27px;
+    margin-left: -20px;
+}
+
+.footerText p {
+    top: 0px;
+}
+
+.footerText a:hover {
+    cursor: pointer;
+    color: #679BFF;
+}
+
+.footer img {
+    margin-top: 53px !important;
+    margin-left: 71px !important;
+}

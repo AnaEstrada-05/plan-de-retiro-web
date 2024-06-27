@@ -1,0 +1,66 @@
+#davidImagen{
+    object-fit: cover;
+    height: 50vw;
+    width: 38vw;
+    border-radius: 20px;
+    margin-top: 4vw;
+}
+
+.asSeenOnYoutube{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 57vw;
+    gap: 10vw;
+}
+.infoDavid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+    width: 40vw;
+    font-size: 20px;
+}
+.asSeenOnYoutube h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 7vw;
+}
+
+.logoSocialMedia{
+    height: 3.5vw;
+    width: 3.5vw;
+    object-fit: cover;
+}
+
+.lightText{
+    font-size: 20px;
+    color: #8C8C8C;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    column-gap: 60px;
+}
+
+#asSeenAgendar{
+    width: 360px;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    text-align: center;
+    left: 0px;
+}
+
+#asSeenAgendar:hover{
+    color: black;
+}
