@@ -1,0 +1,58 @@
+.newsletter{
+    background-color: #99b1ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: -moz-fit-content;
+    height: 9vw;
+    padding: 4vw 0vw;
+}
+
+.newsletter input{
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: white;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.newsletter p{
+    width: 435px;
+    font-size: 20px;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    column-gap: 10px;
+}
+
+.newsletter .empezar{
+    background-color: #ffe01b;
+    color: black;
+    width: 150px;
+}
+
+.newsletterInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 40vw;
+}
+
+.newsletterInfo h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}

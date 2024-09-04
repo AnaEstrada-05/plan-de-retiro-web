@@ -4,6 +4,7 @@ import Logos from "../components/Logos/logos";
 import Beneficios from "../components/Beneficios/beneficios";
 import AsSeenOnYoutube from "../components/AsSeenOnYoutube/asSeenOnYoutube";
 import Asesores from "../components/Asesores/asesores";
+import Newsletter from "../components/Newsletter/newsletter";
 import Cotiza from "../components/Cotiza/cotiza";
 
 
@@ -16,6 +17,7 @@ function LandingPage() {
       <Beneficios />
       <AsSeenOnYoutube />
       <Asesores />
+      <Newsletter />
       <Cotiza />
     </div>
   );
