@@ -6,7 +6,7 @@ function Selecciona() {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 130,
+    marginTop: "5vw",
   };
 
   const hrStyle = {
