@@ -1,10 +1,10 @@
 import React from 'react';
-import Logos from '../components/Logos/logos';
+import PlanRetiroMain from '../components/PlanDeRetiroMain/planDeRetiroMain';
 
 function PlanRetiro() {
     return (
       <div>
-        <Logos />
+        <PlanRetiroMain />
       </div>
     );
   }
